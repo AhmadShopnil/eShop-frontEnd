@@ -23,6 +23,9 @@ export default function Header() {
           <Link href="/" className="hover:text-red-500">
             Home
           </Link>
+          <Link href="/shop" className="hover:text-red-500">
+            Shop
+          </Link>
           <Link href="/contact" className="hover:text-red-500">
             Contact
           </Link>
@@ -46,9 +49,9 @@ export default function Header() {
           <button className="p-2 hover:bg-gray-100 rounded-full">
             <Heart className="h-5 w-5" />
           </button>
-          <button className="p-2 hover:bg-gray-100 rounded-full">
+          <Link href="/cart" className="p-2 hover:bg-gray-100 rounded-full">
             <ShoppingCart className="h-5 w-5" />
-          </button>
+          </Link>
         </div>
       </div>
     </header>
